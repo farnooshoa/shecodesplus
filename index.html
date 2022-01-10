@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form id="search-form">
+            <input type="text" id="city-input" placeholder="type a city ..." id="city-holder" />
+            <input type="submit" value="search">
+        </form>
+
+        <h1 id=city>
+            Paris
+        </h1>
+        <h2>
+            <span id="temperature"> 29 </span>°C
+        </h2>
+
+
+        <button id="current-location-button">
+            Current
+        </button>
+
+
+        <h3>
+            time
+        </h3>
+        <h4>
+            description
+        </h4>
+
+        <div class="row">
+            <div class="col-6">
+                Humidity: <span id=hum> 8 </span>%
+            </div>
+            <div class="col-6">
+                Wind: <span id=wind> 13 </span>km/h
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

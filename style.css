@@ -1,0 +1,39 @@
+ .container {
+            border: 1px solid #dadde1;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: goldenrod;
+        }
+
+        h2 {
+            color: teal;
+        }
+
+        h3 {
+            font-size: smaller;
+            margin-top: 10px;
+        }
+
+        form {
+            display: block;
+            margin-top: 20px;
+            border-radius: 50px;
+
+        }
+
+        button {
+            display: inline-block;
+            border: 1px solid transparent;
+            padding: 20px;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 10px;
+            transition: ease-in-out;
+            background-color: goldenrod;
+            margin-bottom: 10px;
+        }
